@@ -1,12 +1,16 @@
 ul{
   list-style: none;
+} 
+.bg-color{
+  background-color: rgb(70, 66, 66);
 }
-
 .jumbotron{
   background: linear-gradient(0deg,#fff,transparent),
-              url('https://placeimg.com/1000/500/tech') no-repeat center;
+              url(images/blueprint.jpg) no-repeat center;
   background-size:  cover;
+ height: max-content;
 }
+
 
 .title-letter{
   	font-family: 'Megrim', cursive;
@@ -14,7 +18,7 @@ ul{
 }
 
 :target, .highlight:hover{
-  box-shadow: 0px 0px 10px 15px rgba(0,0,0, .4);
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0, .2);
 }
 
 .highlight{
@@ -37,4 +41,54 @@ ul{
 }
 .twitter::after{
   content: url(./media/twitter.svg);
+}
+
+/* ------ table --------- */
+
+
+table {
+ padding: 20px;
+  margin-top: 100px auto;
+  
+
+}
+
+thead th {
+  font-weight: 400;
+  
+  color: black;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+ 
+}
+
+
+tr {
+  width: 100%;
+  display: inline-table;
+  height: 60px; 
+}
+
+
+/* ---- Footer ---- */
+.main-footer {
+  background-color: rgb(70, 66, 66);
+    /* margin-top: 50px; */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.main-footer li {   
+  margin: 0px;
+
+}
+footer img{
+  width: 30px;
+  height: 24px;
 }
